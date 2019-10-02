@@ -1,0 +1,11 @@
+<button (click)="getData($event)">loadData</button>
+
+<ul>
+  <li *ngFor="let data of datas">
+    <p>{{data.id}}</p>
+    <p>{{data.email}}</p>
+    <p>{{data.first_name}}</p>
+    <p>{{data.last_name}}</p>
+    <img src="{{data.avatar}}" alt="">
+  </li>
+</ul>
