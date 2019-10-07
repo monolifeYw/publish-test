@@ -8,7 +8,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "clean": "rm -rf ./ruler",
+    "build": "npm run clean && cp -R src/libs/ruler ./ruler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monolifeYw/publish-test"
   },
   "dependencies": {
     "@angular/animations": "4.0.3",
