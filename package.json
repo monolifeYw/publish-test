@@ -1,16 +1,15 @@
 {
   "name": "comp-publish-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "UNLICENSED",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run clean && cp -R src/libs/ruler ./ruler",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "clean": "rm -rf ./ruler",
-    "build": "npm run clean && cp -R src/libs/ruler ./ruler"
+    "clean": "rm -rf ./ruler"
   },
   "repository": {
     "type": "git",
