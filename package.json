@@ -1,6 +1,6 @@
 {
   "name": "comp-publish-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "UNLICENSED",
   "scripts": {
     "ng": "ng",
@@ -15,6 +15,10 @@
     "type": "git",
     "url": "https://github.com/monolifeYw/publish-test"
   },
+  "files": [
+    "src/libs/ruler/"
+  ],
+  "main": "ruler/index.ts",
   "dependencies": {
     "@angular/animations": "4.0.3",
     "@angular/common": "4.0.3",
