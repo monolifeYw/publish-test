@@ -1,6 +1,6 @@
 {
   "name": "comp-publish-test",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "UNLICENSED",
   "scripts": {
     "ng": "ng",
@@ -16,7 +16,7 @@
     "url": "https://github.com/monolifeYw/publish-test"
   },
   "files": [
-    "src/libs/ruler/"
+    "ruler/"
   ],
   "main": "ruler/index.ts",
   "dependencies": {
