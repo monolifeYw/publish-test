@@ -1,0 +1,6 @@
+*
+!ruler/
+!ruler/**/*
+!*.md
+!*.gitignore
+!*.npmignore
