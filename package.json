@@ -1,6 +1,6 @@
 {
   "name": "comp-publish-test",
-  "version": "0.1.4",
+  "version": "0.1.5-0",
   "license": "UNLICENSED",
   "scripts": {
     "ng": "ng",
